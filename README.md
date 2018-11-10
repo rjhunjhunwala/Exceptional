@@ -3,7 +3,7 @@
 This project strives to build a programming language (and software derived from it) which is truly exceptional, by ensuring an "Exception" is the only form of conditional control structure!
 ## Specifications
 
-The language is a statically typed, strongly enforced, can be formally specified as follows. The reference implementation, is a transpiler, written in Python, which transpiles Exceptional code into Java. 
+The language is a statically typed, strongly enforced language. It can be formally specified as follows on this page. The reference implementation, is a transpiler, written in Python, which transpiles Exceptional code into Java. 
 
 The bigger the tech-stack, the more exceptional the code. Using Exceptional allows you to interact with three languages at once (four, if you count JVM byte-code)
  
