@@ -6,8 +6,6 @@
       <change beforePath="$PROJECT_DIR$/../BackEndHack" beforeDir="false" afterPath="$PROJECT_DIR$/../BackEndHack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CalHacks" beforeDir="false" afterPath="$PROJECT_DIR$/../CalHacks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Exceptional.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exceptional.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JSONNaturalDisasters" beforeDir="false" afterPath="$PROJECT_DIR$/../JSONNaturalDisasters" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MobileHack" beforeDir="false" afterPath="$PROJECT_DIR$/../MobileHack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../test" beforeDir="false" />
@@ -30,55 +28,46 @@
         <counts>
           <entry key="exc" value="1" />
           <entry key="java" value="3" />
-          <entry key="md" value="1" />
+          <entry key="md" value="2" />
           <entry key="py" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Markdown" value="1" />
+          <entry key="Markdown" value="2" />
           <entry key="PLAIN_TEXT" value="4" />
           <entry key="Python" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="md" value="3618" />
-          <entry key="py" value="2154" />
+          <entry key="md" value="3621" />
+          <entry key="py" value="2935" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="3618" />
-          <entry key="Python" value="2154" />
+          <entry key="Markdown" value="3621" />
+          <entry key="Python" value="2935" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="690">
-                <caret line="46" column="6" lean-forward="true" selection-start-line="46" selection-start-column="6" selection-end-line="46" selection-end-column="6" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Exceptional.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="64">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
-                <marker date="1541866430587" expanded="true" signature="56:61" ph="..." />
-                <marker date="1541866430587" expanded="true" signature="412:851" ph="..." />
-                <marker date="1541866430587" expanded="true" signature="872:942" ph="..." />
+                <marker date="1541867940876" expanded="true" signature="56:61" ph="..." />
+                <marker date="1541867940876" expanded="true" signature="229:244" ph="..." />
+                <marker date="1541867940876" expanded="true" signature="608:613" ph="..." />
+                <marker date="1541867940876" expanded="true" signature="608:698" ph="..." />
+                <marker date="1541867940876" expanded="true" signature="925:1590" ph="..." />
+                <marker date="1541867940876" expanded="true" signature="1611:1681" ph="..." />
               </folding>
             </state>
           </provider>
@@ -96,6 +85,18 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test.exc">
           <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="123">
+                <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -179,17 +180,17 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="821" extended-state="6" />
+    <frame x="0" y="0" width="888" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16809729" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1713948" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.33058986" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.29036143" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -215,16 +216,6 @@
     <entry file="file://$PROJECT_DIR$/test.exc">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="690">
-            <caret line="46" column="6" lean-forward="true" selection-start-line="46" selection-start-column="6" selection-end-line="46" selection-end-column="6" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -232,15 +223,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="123">
+            <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Exceptional.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="64">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
-            <marker date="1541866430587" expanded="true" signature="56:61" ph="..." />
-            <marker date="1541866430587" expanded="true" signature="412:851" ph="..." />
-            <marker date="1541866430587" expanded="true" signature="872:942" ph="..." />
+            <marker date="1541867940876" expanded="true" signature="56:61" ph="..." />
+            <marker date="1541867940876" expanded="true" signature="229:244" ph="..." />
+            <marker date="1541867940876" expanded="true" signature="608:613" ph="..." />
+            <marker date="1541867940876" expanded="true" signature="608:698" ph="..." />
+            <marker date="1541867940876" expanded="true" signature="925:1590" ph="..." />
+            <marker date="1541867940876" expanded="true" signature="1611:1681" ph="..." />
           </folding>
         </state>
       </provider>

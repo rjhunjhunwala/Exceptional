@@ -9,10 +9,33 @@ def remove_leading_spaces(string):
 
 is_giving_it_all = False
 
+def get_rest(line):
+    if line.
+
 def good_code(rest, in_global_scope):
     global is_giving_it_all
     is_giving_it_all = True
     return "//all code after this point, is done with max effort!\n"
+
+def procedure(rest, in_global_scope):
+    pass
+
+def get_brace(rest, in_global_scope):
+    return "}\n"
+
+def get_try(rest, in_global_scope):
+    return "try{\n"
+
+def get_failure(rest, in_global_scope):
+    # return self
+    # too close to home...
+    return "catch(Exception ex){\n//nil\n"
+
+def get_call(rest, in_global_scope):
+    pass
+
+def get_definition(rest, in_global_scope):
+    pass
 
 
 def get_compiled_source(lines):
@@ -33,10 +56,15 @@ def get_compiled_source(lines):
     is_in_func = False
     main_code = []
 
-    dispatch = {"GIVE_IT_110_PERCENT!",(good_code, False), "PROCEDURE", (procedure, True)}
-
+    dispatch = {"GIVE_IT_110_PERCENT!":(good_code, False),
+                "PROCEDURE":(procedure, False), "END":(get_brace, False)
+                "TRY!":(get_try, False), "FAIL:(":(get_failure, False),
+                "CALL":(get_call, True), "DEFINE":(get_definition, False),
+                "DEFINE"
+                }
+    lines = [remove_leading_spaces(line) for line in lines if remove_leading_spaces(line)]
     for line in lines:
-        line = remove_leading_spaces(line)
+        pass
 
     source += "public static void main(String...args){\n"
 
