@@ -1,0 +1,34 @@
+GIVE_IT_110_PERCENT!
+PROCEDURE countingOne
+TRY!
+DEFINE INTEGER c
+GET b a c
+PRINT a
+PRINT "\n"
+PUSH s a
+REASSIGN a a-1
+CALL countingOne
+END
+FAIL:(
+END
+END
+
+PROCEDURE countingTwo
+TRY!
+DEFINE INTEGER temp
+POP s temp
+PRINT temp
+PRINT "\n"
+CALL countingTwo
+END
+SAD_REAX
+END
+END
+
+DEFINE INTEGER a
+REASSIGN a 10
+DEFINE BUFFER b
+DEFINE STACK s
+
+CALL countingOne
+CALL countingTwo

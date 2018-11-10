@@ -38,7 +38,7 @@ This marks the start of a TRY-FAIL block, but it gives more feelings and emotion
 <pre>
 FAIL:(
 </pre>
-This marks the fail portion of the block essentially, it transpiles to 
+This marks the fail portion of the block essentially, it transpiles to, alternatively "SAD_REAX" works too
 <pre>}catch(Throwable t){</pre>
 Be sure to end it with an END
 
@@ -73,9 +73,13 @@ Reassigns the value in name to be the value popped of the stack called [STACK]
 <pre>PUSH [STACK] [NAME]</pre>
 Pushes the value of name, to the stack called [STACK]
 
-<pre>print WHATEVER</pre>
+<pre>PRINT WHATEVER</pre>
 
 prints whatever object whatever happens to be at run time, you must specify a line feed yourself...
+
+<pre>NOTE ...</pre>
+
+This is the only svalid syntax for comments.
 
 
 

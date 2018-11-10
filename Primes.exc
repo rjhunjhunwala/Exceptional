@@ -1,0 +1,58 @@
+GIVE_IT_110_PERCENT!
+DEFINE INTEGER temp
+PROCEDURE print_prime_and_continue
+
+    TRY!
+
+    PRINT prime
+    PRINT ":"
+    REASSIGN factor 1
+    REASSIGN factors 0
+    CALL getFactors
+    TRY!
+    GET exceptionalBuffer 2-factors factors
+        PRINT "Prime"
+    END
+    SAD_REAX
+        PRINT "Composite"
+    END
+
+
+    PRINT "\n"
+    REASSIGN prime prime+1
+    REASSIGN temp 1/(1000-prime)
+
+    CALL print_prime_and_continue
+
+    END
+
+    SAD_REAX
+
+    END
+END
+
+PROCEDURE getFactors
+    TRY!
+        TRY!
+        DEFINE INTEGER mod
+        REASSIGN mod 1/(prime%factor)
+        END
+        FAIL:(
+        REASSIGN factors factors+1
+        END
+        REASSIGN factor factor+1
+        REASSIGN temp 1/(prime+1-factor)
+        CALL getFactors
+    END
+    FAIL:(
+
+    END
+END
+
+DEFINE INTEGER prime
+DEFINE INTEGER factor
+DEFINE INTEGER factors
+DEFINE STACK returnStack
+DEFINE BUFFER exceptionalBuffer
+REASSIGN prime 2
+CALL print_prime_and_continue
