@@ -12,7 +12,7 @@ The bigger the tech-stack, the more exceptional the code. Using Exceptional allo
 The language consists of a number of statements. Each one has a certain effect. A statement must reside on it's own line, but may be proceeded by any amount of whitespace.
 
 <pre>
-GIVE IT 110 PERCENT!
+GIVE_IT_110_PERCENT!
 </pre>
 The first kind of statement, and arguably the most important one. We want all of our code to be written with110 percent effort, so we encourage the programmer to specify this. Any code that precedes this statement, will run, but only with a 9/10 chance (90%).
 
