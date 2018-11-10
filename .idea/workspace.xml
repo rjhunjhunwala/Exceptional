@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46fc9018-1ce1-4139-be61-6e6b1587bac5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Primes.exc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../BackEndHack" beforeDir="false" afterPath="$PROJECT_DIR$/../BackEndHack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CalHacks" beforeDir="false" afterPath="$PROJECT_DIR$/../CalHacks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exceptional.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exceptional.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.exc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../JSONNaturalDisasters" beforeDir="false" afterPath="$PROJECT_DIR$/../JSONNaturalDisasters" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MobileHack" beforeDir="false" afterPath="$PROJECT_DIR$/../MobileHack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../test" beforeDir="false" />
@@ -131,7 +124,7 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="436">
+              <first_editor relative-caret-position="1230">
                 <caret line="82" selection-start-line="82" selection-end-line="82" />
               </first_editor>
               <second_editor />
@@ -229,10 +222,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="888" height="900" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1713948" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1037196" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
@@ -324,7 +317,7 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="436">
+          <first_editor relative-caret-position="1230">
             <caret line="82" selection-start-line="82" selection-end-line="82" />
           </first_editor>
           <second_editor />

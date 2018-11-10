@@ -73,13 +73,18 @@ Reassigns the value in name to be the value popped of the stack called [STACK]
 <pre>PUSH [STACK] [NAME]</pre>
 Pushes the value of name, to the stack called [STACK]
 
-<pre>PRINT WHATEVER</pre>
+<pre>PRINT Expression possibly containing spaces</pre>
 
-prints whatever object whatever happens to be at run time, you must specify a line feed yourself...
+prints whatever object the expression evaluates to at run time, you must specify a line feed yourself...
+
+<pre>print "Hello, World!\n" </pre>
+Prints Hello, World! Followed by a trailing newline
+<pre>print 2000+18 </pre>
+Prints 2018
 
 <pre>NOTE ...</pre>
 
-This is the only svalid syntax for comments.
+This is the only svalid syntax for comments. The space is relevant.
 
 
 
